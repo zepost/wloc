@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadIdentifier</key>
+            <string>com.zepost.wloc.ota-pki-restriction</string>
+            <key>PayloadUUID</key>
+            <string>2D93F6A1-5B47-4C8E-A0D2-6F18B9E35C74</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadDisplayName</key>
+            <string>WLOC Apple OTA/PKI 更新限制</string>
+            <key>allowOTAPKIUpdates</key>
+            <false/>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>限制 Apple OTA/PKI 更新。此设置可能影响系统安全更新；如需恢复，请从设备移除此描述文件。</string>
+    <key>PayloadDisplayName</key>
+    <string>WLOC Apple OTA/PKI 更新限制</string>
+    <key>PayloadIdentifier</key>
+    <string>com.zepost.wloc.ota-pki-restriction</string>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>9A61E4C7-D382-4F50-B6A9-1C28D7E35F04</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
